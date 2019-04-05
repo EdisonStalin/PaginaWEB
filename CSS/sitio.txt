@@ -1,0 +1,35 @@
+    aside#der h1{
+            width:200px;
+            height:50px;
+            line-height:50px;
+            text-align:center;
+            background:rgb(135, 122, 155);
+            color:white;
+            margin-bottom:5px;
+            }
+
+            aside#der input{
+                padding:10px;
+                margin:5px 0;
+                width:176px;
+                }
+aside#der input[type="text"]{
+                    background:url(../IMAGENES/usuario.png);
+                    background-repeat:no-repeat;
+                    background-position:right;
+                    background-size:contain;
+}
+                    
+aside#der input[type="password"]{
+                    background:url(../IMAGENES/password.png);
+                    background-repeat:no-repeat;
+                    background-position:right;
+                    background-size:contain;
+}
+
+aside#der input[type="submit"]{
+    width:200px;
+    background:rgba(78, 135, 139, 0.733);
+    border:0;
+    }
+

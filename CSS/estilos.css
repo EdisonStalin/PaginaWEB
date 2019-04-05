@@ -1,0 +1,112 @@
+
+/* 
+Comentarios
+*/
+
+body
+{
+    background: rgb(123, 145, 206);
+    
+}
+/*aplica estilos solamente al parrafo*/
+
+section p i
+{
+    font-size: 20px;
+    color: brown;
+}
+
+/*aplica estilos a toda la ventana es por medio de la coma a cada uno de los
+selectores.
+
+section, p, i
+{
+    font-size: 20px;
+    color: brown;
+}
+
+*/
+
+/*despues de # damos stilos id*/
+#caja
+{
+    width: 200px;
+    height: 50px;
+    background: rgb(105, 128, 0);
+}
+
+/*despues de . damos stilos class
+.grupoA
+{
+    width: 200px;
+    height: 50px;
+    background: rgb(19, 0, 128);
+    margin: 20px;
+    border: 3px;
+
+}
+*/
+
+
+/*En un selector no es necesario poner # o .*/
+h1{
+font-size:  20px;
+color: red;
+}
+
+/*En un enlace no es necesario poner a*/
+a[href]
+{
+    font-size: 50px;
+    color: black;
+}
+
+/*ò */
+a[href="www.ciencias.epn.edu.ec"]
+{
+    font-size: 50px;
+    color: black;
+}
+
+
+header
+{
+    width: 500px;
+    height: 300px;
+    background: beige;
+    border: 5px solid green;
+}
+
+#Logo
+{
+    width: 400px;
+    height: 190px;
+    background: rgb(0, 89, 255);
+    border: 5px solid white; 
+    padding: 20px;  
+    margin: 20px;
+}
+
+.grupoA
+{
+    width: 200px;
+    height: 50px;
+    background: black;
+
+}
+
+.grupoB
+{
+    width: 200px;
+    height: 50px;
+    background: #f5bca9;
+
+}
+
+.grupoc
+{
+    width: 200px;
+    height: 50px;
+    background: rgb(0, 128, 11);
+
+}

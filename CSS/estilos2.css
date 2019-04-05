@@ -1,0 +1,222 @@
+
+header
+{
+    
+    width: 1000px;
+    height: 120px;
+    background: #444;
+    position: relative;
+    margin: 20px auto;
+    background-size: cover;
+}
+
+/*Formatear los margenes con el selectos universal */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+/*Estilos para que centrar o mover las cajas
+Nota: para centrar es necesario poner una posicion y un margen.
+
+position: relative;
+margin: auto;
+
+h1 {margin: top, rigth botton left;}
+
+*/
+
+nav
+{
+    width: 1000px;
+    height: 48px;
+    
+    position: relative;
+    margin: 0 auto;  
+}
+
+#top
+{
+    width: 1000px;
+    height: 192px;
+    /*background: #888;*/
+    position: relative;
+    margin: 20px auto;  
+}
+
+section{
+    width: 1000px;
+    height: 453px;
+    background: #aaaa;
+    position: relative;
+    margin: 20px auto;
+}
+
+footer
+{
+    width: 1000px;
+    height: 70px;
+    background: #8888;
+    position: relative;
+    margin: 20px auto;   
+}
+
+
+#logo
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+   /* background: #ccc;*/
+    top: 30px;
+    left: 30px;
+    font-family: 'Courier New', Courier, monospace ;  /*tipo de letra*/
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px;/*similar a la anchura de la caja 60px
+    Sirve para centrar el texto dentro de la caja*/
+}
+
+.redes
+{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    /* background: #ccc;*/
+    border-radius: 100%;
+
+    text-align: center;
+    line-height: 42px;
+    color: rgba(255, 248, 240, 0.808);
+}
+
+#icono1
+{
+    top: 42px;
+    right: 120px;
+}
+
+#icono2
+{
+    top: 42px;
+    right: 73px;
+}
+
+#icono3
+{
+    top: 42px;
+    right: 25px;
+}
+
+/*float: left; sirve para poner una acontinuacion de la otra*/
+
+
+
+.botones input[type="submit"]
+{
+    float: left;
+    width: 196px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.445);
+    color: green;
+    margin: 0px 2px;
+    font-family: 'Courier New', Courier, monospace ;  /*tipo de letra*/
+    font-size: 15px ba;
+    text-align: center;
+    line-height: 48px;
+
+}
+
+/*Aplicamos los inten a los li*/
+#top ul li
+{
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: #333;
+    margin-right: 5px;    
+}
+
+aside#izq
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+}
+
+
+
+
+aside#der
+{
+    text-decoration-color: yellow;
+    position: absolute;
+    right:  0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace ;  /*tipo de letra*/
+    font-size: 15px;
+}
+
+
+aside#article
+{
+    position: absolute;
+    left: 200;
+    top: 0;
+    width: 800px;
+    height: 453px;
+    background:  black;
+    color: green; /*color de la letra*/
+    
+}
+
+aside#der h1{
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:rgb(135, 122, 155);
+    color:white;
+    margin-bottom:5px;
+    }
+
+
+
+aside#der input{
+        padding:10px;
+        margin:5px 0;
+        width:176px;
+        }
+aside#der input[type="text"]{
+            background:url(../IMAGENES/usuario.png);
+            background-repeat:no-repeat;
+            background-position:right;
+            background-size:contain;
+}
+            
+aside#der input[type="password"]{
+            background:url(../IMAGENES/password.png);
+            background-repeat:no-repeat;
+            background-position:right;
+            background-size:contain;
+}
+
+aside#der input[type="submit"]{
+width:200px;
+background:rgba(78, 135, 139, 0.733);
+border:0;
+}
+
